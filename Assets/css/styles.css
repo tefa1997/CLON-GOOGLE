@@ -3,6 +3,8 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Header */
@@ -56,7 +58,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background: #f2f2f2;
+  background: #000000;
   padding: 10px 20px;
 }
 .footer-links {
