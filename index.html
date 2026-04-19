@@ -2,26 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google</title>
+    <title>Google Clone</title>
     <link rel="stylesheet" href="./Assets/css/styles.css">
 </head>
 <body>
   <!--header-->
-  <header>
-    <nav> <a href="#">Gmail</a>
-        <a href="#">imagenes</a>
-    </nav>
-    <div>
-        <img src="perfil.jpg" alt="foto de perfil"> 
-    </div>
-  </header>
+  <header class="nav-bar">
+  <ul class="left-links">
+    <li><a href="#">Gmail</a></li>
+    <li><a href="#">Imágenes</a></li>
+  </ul>
+  <div>
+    <img src="Assets/css/images/perfil.jpg" alt="Foto de perfil" class="profile-pic">
+  </div>
+</header>
    <!--main-->
    <main>
     <section>   
     <!-- Antes estaba <h1>Google</h1> -->
-    <img src="Assets/css/images/logo.jpg" alt="google-logo" width="272" height="92">
+     <div class="logo">
+      <img src="Assets/css/images/logo.jpg" alt="google-logo">
+    </div>
+    <form class="search-form" action="#" method="get">
+        <input type="text" name="q" placeholder="buscar...">
+          <div class="buttons">
+              <button type="submit">Buscar con Google</button>
+        <button type="button">Voy a tener suerte</button>
+          </div>
+    </form>
     </section>
    </main>
+    <!--footer-->
+   <footer>
+     <div class="footer-links">
+    <div>
+      <a href="#">Publicidad</a>
+      <a href="#">Negocios</a>
+      <a href="#">Sobre Google</a>
+    </div>
+    <div>
+      <a href="#">Privacidad</a>
+      <a href="#">Condiciones</a>
+      <a href="#">Preferencias</a>
+    </div>
+  </div>
+   </footer>
 </body>
 </html>

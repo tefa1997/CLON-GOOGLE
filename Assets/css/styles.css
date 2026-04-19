@@ -9,8 +9,9 @@ body {
 
 /* Header */
 .nav-bar {
-  display: flex;
+  display: flex; 
   justify-content: space-between;
+  align-items: center;
   padding: 10px 20px;
 }
 .nav-left, .left-links, .right-links {
@@ -20,16 +21,16 @@ body {
 }
 .nav-left a, .left-links a, .right-links a {
   text-decoration: none;
-  color: #555;
+  color: #0a0909;
 }
 .profile-pic {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border-radius: 45%;
 }
 .logo img {
-  margin-top: 50px;
-  width: 200px;
+  margin-top: 70px;
+  width: 272px;
 }
 
 /* Main */
@@ -37,7 +38,7 @@ body {
   width: 50%;
   padding: 10px;
   border-radius: 25px;
-  border: 1px solid #ccc;
+  border: 1px solid #c2c4d6;
 }
 .buttons {
   margin-top: 20px;
@@ -50,7 +51,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
 }
 
 /* Footer */
